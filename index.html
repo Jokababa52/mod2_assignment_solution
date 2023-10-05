@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <title>Our Menu</title>
+<title>Our Menu</title>
 </head>
-<body>
   <h1>Our Menu</h1>
   <div class="row">
+  <body>
     <div class="col-lg-4 col-md-6 col-sm-12">
       <div class="section" id="section1">
         <div class="section-title">Classic Pizzas</div>
         <p>REGINA,
+
 HAWAIIAN,
 BOEREWORS,
 BBQ CHICKEN OR STEAK,
@@ -43,7 +44,57 @@ SPICY BOEREWORS
         <p>NYAMA FEAST,
 CHICKEN FEAST,
 MEAT DELUXE
-.</p>/********** Large devices only **********/
+.</p>
+      </div>
+    </div>
+  </div>
+</body>
+    
+  
+<style>
+
+/********** Base styles **********/
+h1 {
+  margin-bottom: 15px;
+  text-align: center; /* Center-align the heading */
+}
+
+p {
+  margin-bottom: 15px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.section {
+  border: 3px solid black;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+.section-title {
+  color: white;
+  padding: 5px;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  border: 2px solid black; /* Add black border */
+  padding: 2px; /* Add padding */
+}
+/* Different background colors for section titles */
+#section1 .section-title {
+  background-color: #3498db; /* Color for Section 1 */
+}
+
+#section2 .section-title {
+  background-color: #e74c3c; /* Color for Section 2 */
+}
+
+#section3 .section-title {
+  background-color: #2ecc71; /* Color for Section 3 */
+}
+
+/********** Large devices only **********/
 @media (min-width: 1200px) {
   .col-lg-4 {
     width: 33.33%;
@@ -62,17 +113,5 @@ MEAT DELUXE
     background-color: blue;
   }
 }
-
-/********** Small devices only **********/
-@media (max-width: 767px) {
-  .col-sm-12 {
-    width: 100%;
-  }
-}
-
-        
-      </div>
-    </div>
-  </div>
-</body>
+  
 </html>
