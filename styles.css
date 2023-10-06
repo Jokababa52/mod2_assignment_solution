@@ -13,6 +13,8 @@ p {
   padding: 40px;
   box-sizing: border-box;
   background-color: #ED9006;
+  font-family: Serif;
+  color: solid black;
 }
 
 .section {
