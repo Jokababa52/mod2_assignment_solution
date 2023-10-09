@@ -62,16 +62,16 @@ p {
     }
 }
 
-.section-title.section-title-1 {
-  background-color: #3498db;
+#section1 .section-title {
+  background-color: #3498db; /* Color for Section 1 */
 }
 
-.section-title.section-title-2 {
-  background-color: #2ecc71;
+#section2 .section-title {
+  background-color: #e74c3c; /* Color for Section 2 */
 }
 
-.section-title.section-title-3 {
-  background-color: #e74c3c; 
+#section3 .section-title {
+  background-color: #2ecc71; /* Color for Section 3 */
 }
 
 
