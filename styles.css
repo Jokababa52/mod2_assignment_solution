@@ -46,14 +46,14 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .section {
-        width: 50%;
+        width: 100%;
     }
 }
 
 @media (min-width: 992px) {
     /* Desktop view styles (992px and above) */
     .section {
-    width: 33.33%;
+    width: 100%;
     }
 }
 
