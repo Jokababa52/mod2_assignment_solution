@@ -50,7 +50,7 @@ p {
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3 {
-    float: left;
+    float: right;
   }
   .col-lg-1 {
     width: 50%;
@@ -66,7 +66,7 @@ p {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3 {
-    float: right;
+    float: left;
   }
   .col-md-1 {
     width: 50%;
