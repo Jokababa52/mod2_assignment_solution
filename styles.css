@@ -62,17 +62,21 @@ p {
     }
 }
 
-#section1 .section-title {
-  background-color: #3498db; /* Color for Section 1 */
+/* Different background colors for section titles */
+.section:nth-child(1) .section-title {
+  background-color: #3498db; /* Color for Deluxe Pizzas */
 }
 
-#section2 .section-title {
-  background-color: #e74c3c; /* Color for Section 2 */
+.section:nth-child(2) .section-title {
+  background-color: #e74c3c; /* Color for Supreme Pizzas */
 }
 
-#section3 .section-title {
-  background-color: #2ecc71; /* Color for Section 3 */
+.section:nth-child(3) .section-title {
+  background-color: #2ecc71; /* Color for Classic Pizzas */
 }
+}
+
+
 
 
 
