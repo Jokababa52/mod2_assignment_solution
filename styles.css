@@ -51,7 +51,9 @@ p {
 }
 
 @media (min-width: 992px) {
-    /* Desktop view styles (992px and above) */
+    .section {
+        width: 33.33%;
+    }
 }
 
 @media (max-width: 767px) {
