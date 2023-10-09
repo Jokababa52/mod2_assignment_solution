@@ -62,17 +62,24 @@ p {
     }
 }
 
-.section-title:nth-child(odd) {
-  background-color: #3498db; 
+.section-title.section-title-1 {
+  background-color: #3498db;
 }
 
-.section-title:nth-child(even) {
-  background-color: #2ecc71; 
+.section-title.section-title-2 {
+  background-color: #2ecc71;
 }
 
-.section-title:nth-child(odd) {
-    background-color: #; 
- 
+.section-title.section-title-3 {
+  background-color: #e74c3c; 
+}
+
+
+
+
+
+
+
 
 
 
